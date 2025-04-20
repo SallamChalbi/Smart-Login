@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="./style/bootstrap.min.css">
-    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <div class="container text-center my-5">
         <div class="w-75 mx-auto p-5 group">
             <h1>Smart Login System</h1>
-            <input type="text" class="form-control my-3" id="userName" placeholder="Enter your name">
-            <input type="email" class="form-control my-3" id="userEmail" placeholder="Enter your email">
-            <input type="password" class="form-control my-3" id="userPassword" placeholder="Enter your password">
-            <button class="btn btn-outline-info w-100 my-3" id="loginBtn">Sign Up</button>
+            <input type="text" class="form-control my-3" id="signupName" placeholder="Enter your name">
+            <input type="email" class="form-control my-3" id="signupEmail" placeholder="Enter your email">
+            <input type="password" class="form-control my-3" id="signupPassword" placeholder="Enter your password">
+            <p class="m-3" id="result"></p>
+            
+            <button class="btn btn-outline-info w-100 my-3" id="signupBtn">Sign Up</button>
             <p class="text-white">You have an account? 
                 <a class="text-white" href="./index.html">Sign in</a>
             </p>
@@ -22,6 +24,6 @@
     </div>
 
     <script src="./script/bootstrap.min.js"></script>
-    <script src="./script/login.js"></script>
+    <script src="./script/signup.js"></script>
 </body>
 </html>
