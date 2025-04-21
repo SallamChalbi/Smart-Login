@@ -70,7 +70,7 @@ function notValid() {
         result.style.color = 'red';
     }
     else if(!validatePassword(signUpPassword.value)) {
-        result.innerHTML = 'Password must be at least  characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character';
+        result.innerHTML = 'Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character';
         result.style.color = 'red';
     }
 }
